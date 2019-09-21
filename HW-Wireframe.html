@@ -30,14 +30,14 @@
                       margin: 30;}
               
                     .header {
-                      padding: px;
+                      padding: 20px;
                       text-align: center;
                       background: #ebebeb;
                       color: white;
                       font-size: 30px;
                     }
                    
-                .content {padding:20x;}
+                .content {padding:20px;}
                 </style>
                 </head>   
                     <div class="header">
@@ -46,20 +46,39 @@
           
          
               </style>
-        
+              <head>
+                  <meta name="viewport" content="width=device-width, initial-scale=1">
+                  <style>
+                  * {
+                    box-sizing: border-box;
+                  }
+                  
+                  
+                  .column {
+                    float: left;
+                    margin: 50px;
+                    padding: 10px;
+                    height: 250px;
+                  }
+                  
+                  .left {
+                    width: 40%;
+                  }
+                  
+                  .right {
+                    width: 60%;
+                  }
+                  
+                
+                  .row:after {
+                    content: "";
+                    display: table;
+                    clear: both;
+                  }
+                  </style>
+                  </head>    
     
 <body>
-        .column {
-            float: left;
-          }
-          
-          .left {
-            width: 40%;
-          }
-          
-          .right {
-            width: 50%;
-          }
     <P>An idea of learning.</P>
     p {
         <font> Arial , Helvetica Neue; Helvetica; sans-serif;</font>
